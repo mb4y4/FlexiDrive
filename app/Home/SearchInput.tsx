@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchInput() {
   return (
-    <div>
+    <div className="mt-10">
       <h2 className="text-center text-[20px] text-gray-400">
         Search for your next Car
       </h2>
