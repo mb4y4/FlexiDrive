@@ -6,8 +6,8 @@ function SearchInput() {
       <h2 className="text-center text-[20px] text-gray-400">
         Search for your next Car
       </h2>
-      <div className="flex justify-center mt-5 ">
-        <div className="flex bg-gray-200 p-2 px-5 gap-2 rounded-full border-2 items-center divide-x">
+      <div className="flex justify-center mt-5">
+        <div className="flex bg-gray-200 p-2 px-5 gap-2 rounded-full border-2 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -33,12 +33,13 @@ function SearchInput() {
             placeholder="Location"
             className="p-2 outline-none bg-transparent"
           />
+          <div className="border-l border-gray-600"></div>
           <input
             type="date"
             className="p-2 outline-none bg-transparent text-gray-500"
           />
         </div>
-        <button className="bg-blue-500 text-white p-2 border-2 rounded-full ">
+        <button className="bg-blue-500 text-white p-2 rounded-full">
           Search
         </button>
       </div>
