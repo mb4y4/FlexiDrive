@@ -10,8 +10,11 @@ export const getCarsList = async () => {
                 createdAt
                 id
                 name
-                prices
                 seats
+                image {
+                    url
+                  }
+                prices
             }
         }
     `;
